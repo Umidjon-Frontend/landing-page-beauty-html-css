@@ -104,7 +104,7 @@ ul li {
 .second-line__header-phone-number {
   margin-right: 40px;
 }
-.second-line__header-btn a {
+.second-line__header-btn a{
   padding: 12px 26px 13px 27px;
   font-size: 14px;
   border-radius: 40px;
@@ -233,8 +233,74 @@ ul li {
   color: var(--color2);
 }
 
+/* subs and our shop section */
+.subs-and-our{
+  margin-bottom: 132px;
+}
+.subs-and-our__items{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* subscribe */
+.subscribe{
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 45px 35px 40px;
+  background-color: var(--color2);
+}
+.subscribe-info h1{
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.subscribe-info p{
+  margin: 25px 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.subscribe-info input{
+  padding: 9px 25px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
 
-
+/* our shop */
+.our-shop{
+  width: 48%;
+  padding: 35px 45px 35px 40px;
+  background-color: var(--color2);
+  color: #fff;
+}
+.our-shop h1{
+  font-size: 18px;
+  font-weight: 700;
+}
+.our-shop p{
+  margin: 25px 0;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.our-shop a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 35px;
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.our-shop a:hover{
+  background-color: #fff;
+  color: var(--color2);
+}
 
 
 /* MEDIA */
